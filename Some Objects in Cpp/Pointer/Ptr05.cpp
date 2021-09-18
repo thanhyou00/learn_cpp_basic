@@ -8,16 +8,18 @@ int main() {
 //	cout<<ptr_null1<<endl;
 
 	if(ptr_null1){ // kiem tra gia tri cua con tro
-		cout<<"Null"<<endl;
+		cout<<"Not Null"<<endl;
 	} else {
-		cout<<"Not null"<<endl;
+		cout<<"Null"<<endl;
 	}
 	
 	if(&ptr_null1){ // kiem tra dia chi cua con tro
-		cout<<"Null"<<endl;
+		cout<<"Not Null"<<endl;
 	} else {
-		cout<<"Not null"<<endl;
+		cout<<"Null"<<endl;
 	}
+	
+	// => Dia chi cua bien con tro khong co null , gia tri cua bien con tro co the la null
 	return 0;
 }
 

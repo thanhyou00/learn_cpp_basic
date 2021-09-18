@@ -5,8 +5,8 @@ using namespace std;
 
 void showArray1(int* arr) { // <=> void showArray1(int arr[])
 	for(int i=0;i<9;i++){
-		cout<< *arr <<" ";
-		arr++;
+		cout<< *(arr + i) <<" ";
+	//	arr++;
 	}
 }
 
