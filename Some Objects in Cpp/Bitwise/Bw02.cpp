@@ -2,9 +2,10 @@
 using namespace std;
 
 int main() {
-	int add =5;
-	string name = to_string(add);
-	cout<<name;
+	int a = 25;
+	int b = 12;
+	// Toan tu & 
+	cout<<(a & b); 
 	return 0;
 }
 
