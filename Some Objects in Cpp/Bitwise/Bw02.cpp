@@ -4,7 +4,7 @@ using namespace std;
 int main() {
 	int a = 12;
 	int b = 25;
-	// Toan tu '&' - AND
+	// Bitwise '&' - AND
 	cout<<(a&b)<<endl; 
 /*
 	12 = 00001100 (In Binary)
@@ -13,7 +13,7 @@ int main() {
 =>>	8  = 00001000  ( 0 & 0 = 0 ; 0 & 1 = 0 ; 1 & 1 = 1 ) 
 *Notes : Ban co the hieu nhu phep nhan : 0*0=0 ; 0*1=0 ; 1*1=1 
 */
-	// Toan tu '|' - OR 
+	// Bitwise '|' - OR 
 	cout<<(a|b)<<endl;
 /*
 	12 = 00001100 (In Binary)
@@ -22,12 +22,13 @@ int main() {
 =>> 29 = 00011101  ( 0 | 0 = 0 ; 0 | 1 = 1 ; 1 | 1 = 1 )	
 *Notes : Ban chi can nho 0|0=0 con lai se bang 1 	
 */	
-	// Toan tu '^' - XOR
+	// Bitwise '^' - XOR
+	cout<<(a^b)<<endl;
 /*
 	12 = 00001100 (In Binary)
 	^
 	25 = 00011001 (In Binary)
-=>> 29 = 00010101  ( 0 | 0 = 0 ; 0 | 1 = 1 ; 1 | 1 = 0 )	
+=>> 21 = 00010101  ( 0 | 0 = 0 ; 0 | 1 = 1 ; 1 | 1 = 0 )	
 *Notes :  ban chi can nho 0|1=1 con lai se bang 0	
 */	
 	return 0;
