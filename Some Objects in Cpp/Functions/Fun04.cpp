@@ -11,14 +11,19 @@ double funct_mult(double a, double b) {
 	return a + b;	
 }
 
-string funct_mult(string a, string b) {
-	return a + b;	
+void funct_mult(string a, string b) {
+	cout<< a + b <<endl;
 }
+/*
+	Notes :
+	- Ten ham co the giong nhau nhung kieu du lieu cua bien phai khac nhau
+	- Co the la ham co tra ve & ham khong tra ve
+*/
 
 int main() {
 	cout<<funct_mult(5, 10)<<endl;
 	cout<<funct_mult(5.5, 10.4)<<endl;
-	cout<<funct_mult("thanhyou", "00")<<endl;
+	funct_mult("thanhyou", "00"); // Goi ham va truyen tham so truc tiep cho ham
 	return 0;
 }
 
