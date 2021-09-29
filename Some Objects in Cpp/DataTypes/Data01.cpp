@@ -9,10 +9,24 @@ using namespace std;
 	char - Character - 1
 	wchar_t	- Wide Character - 2
 	bool - Boolean - 1
-	void - Empty - 0
+	void - Empty - 1 hoac 0
 */
 int main() {
-
+    cout << "Size of int : " << sizeof(int)
+       << " bytes" << endl;
+    cout << "Size of float : " << sizeof(float)
+       << " bytes" <<endl;
+    cout << "Size of double : " << sizeof(double)
+       << " bytes" << endl;
+    cout << "Size of char : " << sizeof(char)
+      << " byte" << endl;
+    cout << "Size of wchar_t : " << sizeof(wchar_t)
+       << " bytes" <<endl;
+    cout << "Size of bool : " << sizeof(bool)
+       << " byte" << endl; 
+    cout << "Size of void : " << sizeof(void)
+       << " byte" << endl;       
+	     
 	return 0;
 }
 
