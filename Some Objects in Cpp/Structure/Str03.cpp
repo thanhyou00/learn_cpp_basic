@@ -23,6 +23,10 @@ Staff getStaff(Staff st) { // Ham lay thong tin cua nhan vien
 
 int main() {
 	Staff st;
+/*
+* Giai thich : 
+- Staff st : Khai bao bien st co kieu du lieu la struct
+*/	
 	showStaff(getStaff(st)); // Goi ham voi tham so truyen vao la ket qua tra ve cua getStaff
 	return 0;
 }
